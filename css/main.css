@@ -1,0 +1,26 @@
+header {
+  background-color: white;
+  border-bottom: 2px solid #dbdbdb;
+  display: flex;
+  box-sizing: border-box;
+  position: relative;
+}
+header .menu {
+  display: flex;
+  position: absolute;
+  top: 20px;
+  right: 40px;
+}
+header .menu a {
+  padding: 20px;
+}
+header .menu .items:hover {
+  background-color: #dbdbdb;
+}
+header .menu .items:hover a {
+  font-weight: 700;
+}
+h1 {
+  font-size: 28px;
+  font-weight: 700;
+}
